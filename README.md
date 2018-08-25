@@ -2,7 +2,7 @@
 监听目录中文件的变化然后执行, 类似于gulp, 但是这里只是提供一下命令
 # fswatch安装
 https://github.com/emcrisostomo/fswatch
-brew install fswatch
+```brew install fswatch```
 # golang
 ```
 fswatch -x -t -u . \
