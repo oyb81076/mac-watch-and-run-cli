@@ -22,3 +22,6 @@ fswatch -x -t -u . \
   | sh
 ```
 运行脚本后, 自动编译src目录下的文件到build中国然后运行
+
+# ts-node
+fswatch -e ".*" -i ".*[.][jt]s$" --event=Updated src | xargs -I{} ts-node {}
